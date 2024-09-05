@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="changes()">Change</button>
+
+    <script>
+
+        function changes()
+        {
+            let a1 = Math.random()*256
+            let a2 = Math.random()*256
+            let a3 = Math.random()*256
+
+            document.body.style.background = `rgb(${a1},${a2},${a3})`
+            
+        }
+
+    </script>
+</body>
+</html>
